@@ -18,5 +18,8 @@ def single(request,category_name,image_id):
     image_category=Image.objects.filter(image_category__name = category_name)
     try:
         image = Image.objects.get(id=image_id)
-    except
+    except ValueError:
+        raise Http404()
+        return render(request,"single.html",{'title':title,"image":image,"locations":locations,"image_category":image_category})
+
 
