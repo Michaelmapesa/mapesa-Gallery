@@ -4,3 +4,23 @@
 {{block.super}}
 
 <!-- landing page -->
+<div class="banner">
+    <div class="cover">
+        <div class="container image">
+            <h2 id="group">The Best Photography Galleries Ever.</h2>
+            <form action="{% url 'search_image' %}" class="form" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search available category" name="image_category">
+                    <button type="submit" class="btn">Submit</button>
+                     <br>
+                </div>
+                <p class="trend">
+                    Available Food, Drinks
+                </p>
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
