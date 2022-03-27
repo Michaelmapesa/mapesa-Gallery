@@ -8,7 +8,7 @@
 <!-- Landing Page -->
 <div class="banner-1">
     <div class="cover-1">
-        <h2>{{image.image_category.name}} Category</h2>
+        <h2>{{image.picture_category.name}} Category</h2>
         <div class="container imageloc">
             <form class="form" role="search" action="{% url 'search_image' %}">
                 <div class="input-group">
@@ -29,7 +29,7 @@
              <div class="portfolio-wrap ">
                  <div class="portfolio-wrap">
                      <a class="img-overlay" data-toggle="modal" data-target="#{{image.id}}" style="width:100%">
-                         <img src="{{image.picture.cdn_url}}" href="" class="image" alt="Image" >
+                        <img src= {% if image.picture %} {{image.picture.url}} {%else%}#{% endif %} alt="Image" class="img-responsive" height="200px" width="250px">
                      </a>
                  </div>
              </div>
@@ -52,7 +52,7 @@
          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
              <div class="portfolio-wrap ">
                  <div class="portfolio-wrap hovereffect">
-                     <a class="img-overlay" data-toggle="modal" data-target="#{{image.id}}" style="width:100%" >
+                     <a class="img-overlay" data-toggle="modal" data-target="#{{picture.id}}" style="width:100%" >
                         <img src="{{image.picture.cdn_url}}" href="" class="image" alt="Image" >
                          <!-- <img src= {% if image.my_picture %} {{image.my_picture.url}} {%else%}#{% endif %} alt="Image" class="img-responsive"> -->
 

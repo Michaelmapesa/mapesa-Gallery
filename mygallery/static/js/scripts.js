@@ -16,3 +16,16 @@ $(document).ready(function(){
         document.getElementById('sideNav').style.width='290px'
     })
 })
+$(document).ready(function(){
+    // $(".body2").click(function(){
+    //     $("#hide").hide();
+    //     $(".hide3").show();
+    //   });
+    $(".body2").click(function(){
+        $("#hide").hide();
+      });
+      
+      $(".body2").click(function(){
+        $(".hide3").show();
+      });
+})
