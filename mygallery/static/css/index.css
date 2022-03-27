@@ -43,7 +43,7 @@ input.form-control{
     -o-background-size: cover;
     -ms-background-size: cover;
     -moz-background-size: cover;
-    min-height: 280px;
+    height: 400px;
     background-repeat: no-repeat;
     }
 form{
@@ -73,7 +73,7 @@ form>input:hover{
 }
 #link{
     position: relative;
-    top: 130px;
+    top: 160px;
     left: 280px;
     border: 2px solid orange;
     width: 130px;
