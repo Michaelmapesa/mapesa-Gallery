@@ -21,7 +21,7 @@ ul>li>a{
 
 }
 ul>li>a:hover{
-    color: red;
+    color: blue;
 }
 form.form{
     width: 70%;
@@ -43,8 +43,51 @@ input.form-control{
     -o-background-size: cover;
     -ms-background-size: cover;
     -moz-background-size: cover;
-    min-height: 250px;
+    min-height: 280px;
     background-repeat: no-repeat;
     }
+form{
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+form>input:hover{
+    background-color: blue;
+}
+.submit:hover{
+    background-color: blue;
+}
+.submit{
+    background-color: whitesmoke;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-top: 5px;
+    color: gray;
+}
+#category{
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-weight: bold;
+}
+#link{
+    position: relative;
+    top: 130px;
+    left: 280px;
+    border: 2px solid orange;
+    width: 130px;
+    background-color: orange;
+    border-radius: 50px;
+    
+}
+#link>a{
+    color: gray;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#link:hover{
+    background-color: blue;
+}
 
 
