@@ -36,7 +36,7 @@ input.form-control{
     font-family: 'Font Awesome 5 Brands' !important;
 }
 .banner-1{
-    background-image: url("https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2017/06/g13_image_6.jpg");
+    background-image: url("	https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Cn4Ua4apzuRI4waXHsZN9onYE8L_cs3sSQ&usqp=CAU");
     background-size:cover;
     background-position: center;
     -webkit-background-size: cover;
@@ -44,7 +44,7 @@ input.form-control{
     -ms-background-size: cover;
     -moz-background-size: cover;
     min-height: 250px;
-    
+    background-repeat: no-repeat;
     }
 
 
