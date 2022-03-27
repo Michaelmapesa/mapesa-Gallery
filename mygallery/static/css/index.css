@@ -103,5 +103,24 @@ form>input:hover{
 .portfolio-wrap{
     padding: 0 4px;
 }
+div.modal-dialog{
+    min-width:1000px;
+    min-height: 600px;
+}
+div.modal-content{
+    min-height: 800px;
+    min-width: 600px;
+}
+#sorry{
+    text-align: center;
+    margin-top: 20px;
+}
+.sorry1{
+    background-color: whitesmoke;
+}
+
+
+
+
 
 
