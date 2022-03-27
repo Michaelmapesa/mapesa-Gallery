@@ -1,7 +1,7 @@
 body{
     font-size: 100%;
     font-family: sans-serif;
-    background-color: red;
+    
 }
 nav.navbar.navbar-expand-lg.navbar-light{
     font-size: 20px;
@@ -23,3 +23,28 @@ ul>li>a{
 ul>li>a:hover{
     color: red;
 }
+form.form{
+    width: 70%;
+    border-radius: 0px;
+    height: 50px;
+    margin: 0 auto;
+}
+input.form-control{
+    width: 70%;
+    border-radius: 0px;
+    height: 40px;
+    font-family: 'Font Awesome 5 Brands' !important;
+}
+.banner-1{
+    background-image: url("https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2017/06/g13_image_6.jpg");
+    background-size:cover;
+    background-position: center;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 250px;
+    
+    }
+
+

@@ -6,9 +6,9 @@
   <meta charset="utf-8">
 
   {% if title %}
-  <title>Sunsplash | {{title}}</title>
+  <title>My-Gallery | {{title}}</title>
   {% else %}
-    <title> Sunsplash </title>
+    <title> My-Gallery </title>
   {% endif %}
 
   {% block styles %}
@@ -65,6 +65,21 @@
       <script src="{% static 'js/scripts.js' %}"></script>
 
     {% endblock %}
+    <div class="banner-1">
+      <div class="cover-1">
+         
+          <div class="container imageloc">
+              <form action="{% url 'search_image' %}" class="form" role="search">
+                  <input type="text" class="form-control" placeholder="Enter category" name="image_category">
+                  <button class="submit">submit</button>
+  
+              </form>
+  
+          </div>
+      </div>
+  
+  </div>
+  
 
 </body>
 </html>
