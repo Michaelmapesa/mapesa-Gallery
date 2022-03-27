@@ -102,13 +102,8 @@
                </div>
           {% empty %}
       </div>
-      <div class="row">
-          <div class="col-sm-6 col-md-6 col-lg-6">
-              <img src="{% static 'images/sorry.png' %}" alt="" class = "oops">
-          </div>
-          <div class="col-sm-6 col-md-6 col-lg-6">
+      <div class="notificaton">
               <h2 class="text-center"> Sorry no image for {{message}} category. Images are comming soon.</h2>
-          </div>
       </div>
       {% endfor %}
   
