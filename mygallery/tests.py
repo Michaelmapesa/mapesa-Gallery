@@ -25,7 +25,7 @@ class LocationTestCLass(TestCase):
 
     def test_update(self):
         location = Location.get_location_id(self.loc.id)
-        location.update_location('kenya')
+        location.update_location('kenya.md')
         location = Location.get_location_id(self.loc.id)
         self.assertTrue(location.name == 'kenya')
 
